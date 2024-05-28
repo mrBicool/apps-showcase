@@ -1,8 +1,12 @@
+import WeatherBoard from "./components/WeatherBoard"
+
 function App() { 
 
   return (
     <>
-      <div className="font-bold text-2xl">Hello world</div>
+      <div className="flex items-center justify-center h-screen">
+      <WeatherBoard></WeatherBoard>
+      </div>
     </>
   )
 }
